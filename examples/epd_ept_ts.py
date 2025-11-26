@@ -48,7 +48,7 @@ downloaded_files = Fido.fetch(search_results)
 # The **concatenate=True** argument ensures that if multiple files are downloaded,
 # they are combined into a single continuous TimeSeries object.
 
-ept_ts = ts(downloaded_files, concatenate=True)
+ept_ts = TimeSeries(downloaded_files, concatenate=True)
 
 ###############################################################################
 # Plotting Electron Data for Different Viewing Directions

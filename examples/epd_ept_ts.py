@@ -12,7 +12,7 @@ TimeSeries, and plot it.
 import matplotlib.pyplot as plt
 from sunpy.net import Fido, attrs as a
 import sunpy_soar
-from sunpy.timeseries import TimeSeries as ts
+from sunpy.timeseries import TimeSeries
 
 ###############################################################################
 #
